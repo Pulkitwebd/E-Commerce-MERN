@@ -1,0 +1,63 @@
+.userAuthPage {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 90vh;
+  /* background-image: url(../Assets/new.jpg); */
+  background-position: center;
+}
+
+.signUpcard {
+  margin-top: 40px;
+  justify-content: center;
+  height: 520px;
+  width: 350px;
+  border-radius: 4px;
+  background-color: hsl(22, 31%, 88%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sigup_login_box {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.sigup_login_box div:first-child {
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  letter-spacing: 1.6px;
+}
+
+.sigup_login_box div:nth-child(2) {
+  border-left: 1px solid black;
+  border-bottom: 2px solid black;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  letter-spacing: 1.6px;
+}
+
+.Login_Register {
+  padding: 0 40px 40px 40px;
+}
+
+.active_signup {
+  background-color: rgb(171, 122, 95);
+  color: rgb(255, 255, 255);
+  border-radius: 4px 0 0 0;
+}
+
+.active_login {
+  background-color: rgb(171, 122, 95);
+  color: rgb(255, 255, 255);
+  border-radius: 0 4px 0 0;
+}

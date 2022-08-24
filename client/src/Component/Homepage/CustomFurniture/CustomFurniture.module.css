@@ -1,0 +1,226 @@
+.CustomFurnitureBox {
+  padding: 80px 12vw 80px 12vw;
+  background-color: hsl(22, 31%, 88%);
+}
+
+.heading_desc_Box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 110px;
+}
+
+.heading_box h2 {
+  font-size: 25px;
+  font-weight: 700;
+  height: 32px;
+  letter-spacing: 1.6px;
+  line-height: 32px;
+}
+
+.desc_box article {
+  text-align: justify;
+}
+
+.threeBoxes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.boxheading {
+  color: hsl(22, 28%, 21%);
+  font-size: 24px;
+  font-weight: 700;
+  height: 24px;
+  letter-spacing: 1.6px;
+  line-height: 24px;
+}
+
+.boxPara {
+  color: rgb(95, 68, 53);
+  line-height: 28px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+  .CustomFurnitureBox {
+    padding: 80px 15px 80px 15px;
+    background-color: hsl(22, 31%, 88%);
+  }
+  .heading_box {
+    width: 75%;
+  }
+  .heading_box h2 {
+    color: rgb(69, 50, 39);
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    line-height: 30px;
+  }
+  .desc_box {
+    margin-top: 50px !important;
+  }
+  .desc_box article {
+    color: rgb(121, 87, 68);
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .heading_desc_Box {
+    margin-bottom: 60px !important;
+  }
+  .threeBoxes div {
+    height: 300px;
+    width: auto;
+    background-color: rgb(197, 164, 145);
+    border-radius: 4px;
+  }
+  .threeBoxes div:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .boxInnerPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 32px 32px;
+  }
+  .logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    color: hsl(22, 31%, 88%);
+  }
+  .boxPara {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .CustomFurnitureBox {
+    padding: 80px 38px 80px 38px !important;
+    background-color: hsl(22, 31%, 88%);
+  }
+  .heading_desc_Box {
+    margin-bottom: 50px !important;
+  }
+  .heading_box {
+    margin-bottom: 32px;
+    color: rgb(69, 50, 39);
+  }
+  .desc_box {
+    line-height: 25px;
+    color: rgb(121, 87, 68);
+  }
+  .threeBoxes div {
+    height: 250px;
+    width: auto;
+    background-color: rgb(197, 164, 145);
+    border-radius: 4px;
+  }
+  .threeBoxes div:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .boxInnerPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 32px 32px;
+  }
+  .logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    color: hsl(22, 31%, 88%);
+  }
+  .boxPara {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+  .CustomFurnitureBox {
+    height: auto !important;
+  }
+  .heading_box {
+    width: 30%;
+  }
+  .desc_box {
+    width: 50%;
+  }
+  .threeBoxes {
+    width: 100%;
+  }
+  .threeBoxes div {
+    height: 300px;
+    width: 47%;
+    background-color: rgb(197, 164, 145);
+    border-radius: 4px;
+    margin-right: 5% !important;
+    margin-bottom: 50px;
+  }
+  .threeBoxes div:nth-child(2) {
+    margin-right: 0 !important;
+  }
+  .threeBoxes div:nth-child(3) {
+    margin-bottom: 0 !important;
+  }
+  .boxInnerPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 32px 32px;
+  }
+  .logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    color: hsl(22, 31%, 88%);
+  }
+  .boxPara {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 1518px) {
+  .CustomFurnitureBox {
+    height: 310px;
+  }
+  .threeBoxes div {
+    height: 300px;
+    width: 355px;
+    background-color: rgb(197, 164, 145);
+    border-radius: 4px;
+  }
+  .heading_box {
+    width: 30%;
+  }
+  .desc_box {
+    width: 50%;
+  }
+  .boxInnerPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 32px 32px;
+  }
+  .logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    color: hsl(22, 31%, 88%);
+  }
+  .threeBoxes div:not(:last-child) {
+    margin-right: 40px;
+  }
+  .boxPara {
+    text-align: justify;
+  }
+}

@@ -1,0 +1,91 @@
+.NewsLetter {
+  padding: 240px 12vw 240px 12vw;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: 700;
+  height: 32px;
+  letter-spacing: 1.6px;
+  line-height: 32px;
+  margin-bottom: 50px;
+  color: rgb(16, 42, 66);
+}
+
+.paraInput_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.paraInput_box div {
+  width: 50%;
+}
+
+.para {
+  color: rgb(97, 125, 152);
+}
+
+.inputBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputBox input {
+  padding: 10px 20px;
+  color: rgb(50, 77, 103);
+  border-right: none;
+  width: 20vw;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputBox button {
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: rgb(171, 122, 95);
+  border: 2px solid rgb(34, 34, 34);
+  border-radius: 0 4px 4px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .NewsLetter {
+    padding: 150px 15px 150px 15px !important;
+  }
+  .para{
+    margin-top: 20px;
+  }
+  .inputBox input {
+    padding: 10px 20px;
+    color: rgb(50, 77, 103);
+    border-right: none;
+    width: 70vw;
+    border-radius: 4px 0 0 4px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .paraInput_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .paraInput_box div {
+    width: 100%;
+  }
+  .inputBox {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .heading {
+    margin-bottom: 70px !important;
+    line-height: 40px;
+  }
+  .para {
+    color: rgb(97, 125, 152);
+    margin-bottom: 30px;
+  }
+}
